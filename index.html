@@ -7,6 +7,22 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <style>
+        .success,
+        .error {
+            color: white;
+            padding: 5px;
+            margin: 5px 0 15px 0;
+        }
+    
+        .success {
+            background: green;
+        }
+    
+        .error {
+            background: red;
+        }
+    </style>
     <title>Upcoming Games</title>
 </head>
 <body>
@@ -30,7 +46,7 @@
             <input type="submit" value="Submit" id="game-submit" class="btn btn-primary">
         </form>
         <br>
-        <table class="table w-100">
+        <table class="table" style="text-align: center">
             <thead>
                 <tr>
                     <th scope="col">Title</th>
